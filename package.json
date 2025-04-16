@@ -1,5 +1,5 @@
 {
-  "name": "retire-from-the-trades",
+  "name": "retire-from-trades",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
