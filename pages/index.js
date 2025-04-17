@@ -40,29 +40,32 @@ export default function Home() {
         style={{ border: 'none', marginTop: '1rem' }}
       ></iframe>
 
+      {/* Cal.com CTA Button */}
+      <p style={{ textAlign: 'center', marginTop: '2rem' }}>
+        <a
+          href="https://cal.com/joshua-dickman/15min"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            backgroundColor: '#000',
+            color: '#fff',
+            padding: '12px 24px',
+            textDecoration: 'none',
+            borderRadius: '8px',
+            fontWeight: 'bold',
+            display: 'inline-block'
+          }}
+        >
+          📅 Book a Free 15-Min Call
+        </a>
+      </p>
+
+      {/* Compliance Footer */}
       <p style={{ fontSize: '0.8rem', color: '#666', marginTop: '2rem' }}>
         Joshua Dickman – Licensed Insurance Broker (NPN: 21354779). Not affiliated with or endorsed
         by any government agency. Product availability may vary by state and carrier. This page is
         for informational purposes only and does not constitute a contract or guarantee of coverage.
-      </p><p style={{ textAlign: 'center', marginTop: '2rem' }}>
-  <a
-    href="https://cal.com/joshua-dickman/15min"
-    target="_blank"
-    rel="noopener noreferrer"
-    style={{
-      backgroundColor: '#000',
-      color: '#fff',
-      padding: '12px 24px',
-      textDecoration: 'none',
-      borderRadius: '8px',
-      fontWeight: 'bold',
-      display: 'inline-block'
-    }}
-  >
-    📅 Book a Free 15-Min Call
-  </a>
-</p>
-
+      </p>
     </main>
   );
 }
