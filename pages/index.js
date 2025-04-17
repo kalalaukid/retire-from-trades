@@ -13,9 +13,16 @@ export default function Home() {
   return (
     <main style={{ padding: '2rem', fontFamily: 'Arial', maxWidth: '700px', margin: '0 auto' }}>
       <h1>👷 Retire From The Trades 🛠️</h1>
+
       <p>Most tradesmen 🛠️ don’t get a pension.</p>
-      <p>This affordable retirement plan is built for skilled pros like you — in HVAC, roofing, electrical, plumbing, and more.</p>
-      <p>No employer match? No problem. 🧰 Your life insurance policy can do the heavy lifting 💪 — tax-free.</p>
+      <p>
+        This affordable retirement strategy is built for skilled pros like you — in HVAC, roofing,
+        electrical, plumbing, and more.
+      </p>
+      <p>
+        No employer match? No problem. 🧰 Your life insurance policy can do the heavy lifting 💪 —
+        tax-free.
+      </p>
 
       <p style={{ marginTop: '2rem', fontWeight: 'bold' }}>
         👇 Fill out the quick form below to get started:
@@ -32,6 +39,12 @@ export default function Home() {
         title="Retire from the Trades"
         style={{ border: 'none', marginTop: '1rem' }}
       ></iframe>
+
+      <p style={{ fontSize: '0.8rem', color: '#666', marginTop: '2rem' }}>
+        Joshua Dickman – Licensed Insurance Broker (NPN: 21354779). Not affiliated with or endorsed
+        by any government agency. Product availability may vary by state and carrier. This page is
+        for informational purposes only and does not constitute a contract or guarantee of coverage.
+      </p>
     </main>
   );
 }
