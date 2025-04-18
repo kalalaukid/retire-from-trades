@@ -56,8 +56,3 @@ export default function ThankYouInsurance() {
   if (typeof fbq === 'function') {
     fbq('trackCustom', 'InsuranceLeadSubmitted');
   }
-</script>
-fbq('trackCustom', 'InsuranceLeadSubmitted', {
-  funnel: 'RetireFromTrades',
-  lead_type: 'LifeInsurance',
-});
