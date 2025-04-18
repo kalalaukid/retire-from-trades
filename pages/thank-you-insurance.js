@@ -51,3 +51,13 @@ export default function ThankYouInsurance() {
     </main>
   );
 }
+<!-- Meta Pixel Thank You Event -->
+<script>
+  if (typeof fbq === 'function') {
+    fbq('trackCustom', 'InsuranceLeadSubmitted');
+  }
+</script>
+fbq('trackCustom', 'InsuranceLeadSubmitted', {
+  funnel: 'RetireFromTrades',
+  lead_type: 'LifeInsurance',
+});
